@@ -5,6 +5,10 @@
 <loc>https://my.sylar.org/</loc>
 </url>
 <url>
+<loc>https://my.sylar.org/an-introduction-to-sound-localization/</loc>
+<lastmod>2024-04-17T15:03:20+02:00</lastmod>
+</url>
+<url>
 <loc>https://my.sylar.org/binaural-cues-characterization/</loc>
 <lastmod>2022-02-20T18:40:19+01:00</lastmod>
 <image:image>
@@ -46,7 +50,7 @@
 </url>
 <url>
 <loc>https://my.sylar.org/overview/</loc>
-<lastmod>2022-03-29T13:31:36+02:00</lastmod>
+<lastmod>2024-04-17T14:52:57+02:00</lastmod>
 </url>
 <url>
 <loc>https://my.sylar.org/page/2/</loc>
@@ -96,7 +100,7 @@
 </url>
 <url>
 <loc>https://my.sylar.org/publications/</loc>
-<lastmod>2023-10-25T12:32:19+02:00</lastmod>
+<lastmod>2024-04-17T15:09:00+02:00</lastmod>
 </url>
 <url>
 <loc>https://my.sylar.org/research-2/</loc>
@@ -127,12 +131,16 @@
 </image:image>
 </url>
 <url>
+<loc>https://my.sylar.org/ros-and-experimental-robotics/</loc>
+<lastmod>2024-04-17T15:03:44+02:00</lastmod>
+</url>
+<url>
 <loc>https://my.sylar.org/space-dimension-estimation/</loc>
 <lastmod>2022-02-20T18:40:01+01:00</lastmod>
 </url>
 <url>
 <loc>https://my.sylar.org/stage-internship/</loc>
-<lastmod>2023-11-06T09:41:19+01:00</lastmod>
+<lastmod>2024-04-17T14:52:05+02:00</lastmod>
 <image:image>
 <image:loc>https://my.sylar.org/media/posts/15/isir.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
