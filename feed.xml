@@ -3,12 +3,124 @@
     <title>Sylvain Argentieri</title>
     <link href="https://my.sylar.org/feed.xml" rel="self" />
     <link href="https://my.sylar.org" />
-    <updated>2023-11-06T09:41:19+01:00</updated>
+    <updated>2024-04-17T14:36:34+02:00</updated>
     <author>
         <name>Sylvain Argentieri</name>
     </author>
     <id>https://my.sylar.org</id>
 
+    <entry>
+        <title>PhD offer</title>
+        <author>
+            <name>Sylvain Argentieri</name>
+        </author>
+        <link href="https://my.sylar.org/stage-internship-2/"/>
+        <id>https://my.sylar.org/stage-internship-2/</id>
+
+        <updated>2024-04-17T14:29:42+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Naive Learning of Causal World Models Context The proposed PhD thesis will be conducted within the ASIMOV team at the&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <h2 id="naive-learning-of-causal-world-modelslessbrgreater" class="align-center">
+      Naive Learning of Causal World Models<br>
+    </h2>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://my.sylar.org/media/posts/16/isir.jpg" height="121" width="160" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://my.sylar.org/media/posts/16/responsive/isir-xs.jpg 300w ,https://my.sylar.org/media/posts/16/responsive/isir-sm.jpg 480w ,https://my.sylar.org/media/posts/16/responsive/isir-md.jpg 768w">
+      
+    </figure>
+
+    <h3 id="context">
+      Context
+    </h3>
+
+  <p>
+    The proposed PhD thesis will be conducted within the ASIMOV team at the ISIR lab. This team studies the perception and control of robots, or more generally of intelligent systems, in open-ended environments. In traditional robotics, the common approach involves programming robots with predefined models of their sensors, actuators, and environment. In contrast in machine learning and artificial intelligence, the field known as developmental robotics aspires to endow robots with the capacity to autonomously learn about themselves and their surroundings, mirroring the developmental processes observed in humans and other living organisms.<br><br>In Piaget’s theory of cognitive development, the first stage allows infants (in our context robots and intelligent systems) to progressively construct knowledge and understanding of the world by coordinating sensory experiences with physical interaction with their surroundings. The work carried out within the ASIMOV team on these subjects initially involved formalizing, mathematically and algorithmically, the processes that allow a completely naive agent – that is, one without any prior knowledge of its kinematic organization or its environment – to extract the structure of the physical space in which it is immersed. This is made possible by the correlation between its motor actions and the information obtained by its sensors. In the context of the sensorimotor theory of perception described by Kevin O’Regan [1], such a structure can be extracted from row, uninterpreted sensations and can naturally lead to the notion of space perception. Since then, this developmental and sensorimotor approach has enabled the construction of naive agents capable of discovering other properties of their environment such as physical space [2], body schema [3], action structure [4], or the notion of objects [5].<br>
+  </p>
+
+    <h3 id="subject">
+      Subject
+    </h3>
+
+  <p>
+    The proposed thesis seeks to explore the autonomous learning of adaptive world models through sensorimotor interaction with the environment. The term world model [5] encompasses both the identification of meaningful latent variables to describe the environment (i.e. finding a disentangled state representation that separates individual factors of environmental variation), and the prediction of the evolution of those variables over time in response to the agent’s action (i.e. learning the transition function of a markov decision process). Such models reflect the agent’s understanding of its environment and can be utilized in model-based reinforcement learning algorithms to guide its behavior. Research has indicated that models effectively incorporating the causal structure of the environment demonstrate enhanced adaptability to distribution shifts, thus improving the adaptability of robots and intelligent systems [6]. This thesis aims at contributing to the domains of causal discovery and causal representation learning in the context of developmental robotics.<br><br>Initial research directions will involve studying the connections between causal [7] and other disentangled representation learning frameworks [8], and exploring how the agency of intelligent systems can be leveraged to enhance the learning of world models, for instance through specially designed intrinsic motivations [9, 10]. The proposed algorithms will be based on artificial neural networks for function approximation, and validated in simulated environments.
+  </p>
+
+  <p>
+    <b>[1]</b> O’Regan, J.K. and Noë, A. (2001). <i>A sensorimotor account of vision and visual consciousness</i>. Behavioral and Brain Sciences, 24:939-1031.
+  </p>
+
+  <p>
+    <b>[2]</b> Laflaquière, A., O’Regan, J. K., Gas, B., &amp; Terekhov, A. (2018). <i>Discovering space—Grounding spatial topology and metric regularity in a naive agent’s sensorimotor experience</i>. Neural Networks, 105, 371-392.
+  </p>
+
+  <p>
+    <b>[3]</b> Marcel, V., Argentieri, S., &amp; Gas, B. (2019). <i>Where do I move my sensors? Emergence of a topological representation of sensors poses from the sensorimotor flow</i>. IEEE Transactions on Cognitive and Developmental Systems, 13(2), 312-325.<br>
+  </p>
+
+  <p>
+    <b>[4]</b> Godon, J. M., Argentieri, S., &amp; Gas, B. (2020). <i>A formal account of structuring motor actions with sensory prediction for a naive agent</i>. Frontiers in Robotics and AI, 7, 561660.<br>
+  </p>
+
+  <p>
+    <b>[5]</b> Le Hir, N., Sigaud, O., &amp; Laflaquière, A. (2018). <i>Identification of invariant sensorimotor structures as a prerequisite for the discovery of objects</i>. Frontiers in Robotics and AI, 5, 70.
+  </p>
+
+  <p>
+    <b>[6]</b> Ha, D., &amp; Schmidhuber, J. (2018). <i>World models</i>. arXiv preprint arXiv:1803.10122.<br>
+  </p>
+
+  <p>
+    <b>[7]</b> Richens, J., &amp; Everitt, T. (2024). <i>Robust agents learn causal world models</i>. arXiv preprint arXiv:2402.10877.<br>
+  </p>
+
+  <p>
+    <b>[8]</b> Lachapelle, S., Rodriguez, P., Sharma, Y., Everett, K. E., Le Priol, R., Lacoste, A., &amp; Lacoste-Julien, S. (2022, June). <i>Disentanglement via mechanism sparsity regularization: A new principle for nonlinear ICA</i>. In Conference on Causal Learning and Reasoning (pp. 428-484). PMLR.
+  </p>
+
+  <p>
+    <b>[9]</b> Caselles-Dupré, H., Garcia Ortiz, M., &amp; Filliat, D. (2019). <i>Symmetry-based disentangled representation learning requires interaction with environments</i>. Advances in Neural Information Processing Systems, 32.<br>
+  </p>
+
+  <p>
+    <b>[10]</b> Oudeyer, P. Y., &amp; Kaplan, F. (2007). <i>What is intrinsic motivation? A typology of computational approaches</i>. Frontiers in neurorobotics, 1, 108.<br>
+  </p>
+
+  <p>
+    <b>[11]</b> Annabi, L. (2022). <i>Intrinsically Motivated Learning of Causal World Models</i>. Fifth International Workshop on Intrinsically-Motivated Open-ended Learning (IMOL2022).<br>
+  </p>
+
+    <h3 id="profile-required">
+      Profile required
+    </h3>
+
+  <ul>
+    <li>A passion for fundamental research</li><li>Education (Master's degree or engineering degree) in computer science or robotics</li><li>Knowledge in machine learning / artificial intelligence</li><li>Proficiency in Python programming</li><li>Fluent in English<br></li>
+  </ul>
+
+    <h3 id="general-information">
+      General information
+    </h3>
+
+  <ul>
+    <li>Supervisors: <a href="https://www.isir.upmc.fr/personnel/annabi/" target="_blank">Louis Annabi</a> and <a href="https://www.isir.upmc.fr/personnel/argentieri/" target="_blank">Sylvain Argentieri</a></li><li>Approx. starting date: October 2024 ;</li><li><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: 1em; font-weight: var(--font-weight-normal);">Laboratory: </span><a href="https://www.isir.upmc.fr/" target="_blank" style="font-family: var(--editor-font-family); font-size: 1em; font-weight: var(--font-weight-normal); background-color: ; font-style: ; font-variant-ligatures: ; font-variant-caps: ;">ISIR</a><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: 1em; font-weight: var(--font-weight-normal);">, </span><a href="https://sciences.sorbonne-universite.fr/" target="_blank" style="font-family: var(--editor-font-family); font-size: 1em; font-weight: var(--font-weight-normal); background-color: ; font-style: ; font-variant-ligatures: ; font-variant-caps: ;">Sorbonne Université</a><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: 1em; font-weight: var(--font-weight-normal);">, Campus Pierre et Marie Curie, 4 place Jussieu, 75005 Paris.</span><br></li>
+  </ul>
+
+    <h3 id="how-to-apply">
+      How to apply
+    </h3>
+
+  <p>
+    Interested candidates are invited to send their CVs, covering letters and transcripts to<br><a href="mailto:annabi(at)isir.upmc.fr">Louis Annabi (annabi(at)isir.upmc.fr)</a>&nbsp;and&nbsp;<a href="mailto:sylvain.argentieri(at)sorbonne-universite.fr">Sylvain Argentieri (sylvain.argentieri(at)sorbonne-universite.fr)</a>.<br><br>Official applications must be upload to ADUM:&nbsp;<a href="https://adum.fr/candidature/" target="_blank">https://adum.fr/candidature/</a><br>
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Stage / Internship</title>
         <author>
@@ -17,7 +129,7 @@
         <link href="https://my.sylar.org/stage-internship/"/>
         <id>https://my.sylar.org/stage-internship/</id>
 
-        <updated>2023-11-06T09:41:19+01:00</updated>
+        <updated>2023-10-25T13:31:04+02:00</updated>
             <summary>
                 <![CDATA[
                     Structuring the action space of a naive agent in sensorimotor interaction Context The AMAC team (Architectures and Models for Adaptation&hellip;
@@ -102,7 +214,7 @@
         <id>https://my.sylar.org/digital-signal-processing/</id>
             <category term="Teaching"/>
 
-        <updated>2022-03-29T13:41:16+02:00</updated>
+        <updated>2022-03-29T13:22:45+02:00</updated>
             <summary>
                 <![CDATA[
                     I'm the teaching instructor for the 1st year Master degree unit in digital signal processing, supervised with my colleague Pr.
@@ -182,7 +294,7 @@
         <id>https://my.sylar.org/research-2/</id>
             <category term="Research"/>
 
-        <updated>2022-02-20T18:40:52+01:00</updated>
+        <updated>2022-02-19T22:39:10+01:00</updated>
             <summary>
                 <![CDATA[
                     Interactive perception ... this is where we deal with what’s hidden in the sensorimotor flow! ... this is where we&hellip;
@@ -228,7 +340,7 @@
         <link href="https://my.sylar.org/tools/"/>
         <id>https://my.sylar.org/tools/</id>
 
-        <updated>2022-03-16T11:35:28+01:00</updated>
+        <updated>2022-02-19T22:24:35+01:00</updated>
             <summary>
                 <![CDATA[
                     Some interesting tools, software, links, etc. I've found and I want to share. Robostack is a bundling of the Robot&hellip;
@@ -259,7 +371,7 @@
         <id>https://my.sylar.org/overview/</id>
             <category term="Teaching"/>
 
-        <updated>2022-03-29T13:31:36+02:00</updated>
+        <updated>2022-02-19T22:11:06+01:00</updated>
             <summary>
                 <![CDATA[
                     I’m (or have been) the teaching instructor in charge of the following courses at Sorbonne Université: I’m (or have been)&hellip;
@@ -315,7 +427,7 @@
         <link href="https://my.sylar.org/people/"/>
         <id>https://my.sylar.org/people/</id>
 
-        <updated>2023-10-25T12:36:59+02:00</updated>
+        <updated>2022-02-19T14:15:02+01:00</updated>
             <summary>
                 <![CDATA[
                     Research is definitely not something you can do alone. You work with colleagues, partners, students, all of them sharing their&hellip;
@@ -423,7 +535,7 @@
         <id>https://my.sylar.org/publications/</id>
             <category term="Research"/>
 
-        <updated>2023-10-25T12:32:19+02:00</updated>
+        <updated>2022-02-19T14:11:49+01:00</updated>
             <summary>
                 <![CDATA[
                     ⏳Ongoing work 🆕 Waradon Phokhinanan, Nicolas Obin, Sylvain Argentieri (2023). Auditory Cortex-Inspired Spectral Attention Modulation for Binaural Sound Localization in&hellip;
@@ -522,7 +634,7 @@
         <id>https://my.sylar.org/binaural-sound-source-localization/</id>
             <category term="Research"/>
 
-        <updated>2022-02-20T18:40:28+01:00</updated>
+        <updated>2022-02-19T14:09:39+01:00</updated>
             <summary>
                 <![CDATA[
                     On the basis on our binaural cues characterization, we exploited an artificial neural network (ANN) to learn and estimate the&hellip;
@@ -544,7 +656,7 @@
         <id>https://my.sylar.org/binaural-cues-characterization/</id>
             <category term="Research"/>
 
-        <updated>2022-02-20T18:40:19+01:00</updated>
+        <updated>2022-02-19T14:08:23+01:00</updated>
             <summary>
                 <![CDATA[
                     Almost everyone agree on the physical meaning of interaural cues used for horizontal sound source localization (time delay/phase difference and&hellip;
@@ -556,40 +668,6 @@
 <figure class="post__image post__image--center"><img loading="lazy"  src="https://my.sylar.org/media/posts/7/cues-list.png" alt="" width="591" height="260" sizes="(max-width: 48em) 100vw, 768px" srcset="https://my.sylar.org/media/posts/7/responsive/cues-list-xs.png 300w ,https://my.sylar.org/media/posts/7/responsive/cues-list-sm.png 480w ,https://my.sylar.org/media/posts/7/responsive/cues-list-md.png 768w"></figure>
 <p>We then worked during K. Youssef PhD on the comparison between the different definitions proposed in the literature, and on the evaluation of their performances evaluated through a positional classes separation criterion (in azimuth and distance), or in terms of speaker recognition rate. These works demonstrate the robustness of amplitude-bases cues w.r.t. reverberation (ands this was of course expected!), and show that cochlear frequency decomposition outperform classical FFT-based approaches, at a time where they were the most exploited in a Robotics context.</p>
 <p><a href="https://my.sylar.org/robot-audition/">&lt;&lt; Robot audition</a></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Robot audition</title>
-        <author>
-            <name>Sylvain Argentieri</name>
-        </author>
-        <link href="https://my.sylar.org/robot-audition/"/>
-        <id>https://my.sylar.org/robot-audition/</id>
-            <category term="Research"/>
-
-        <updated>2022-02-20T18:40:08+01:00</updated>
-            <summary>
-                <![CDATA[
-                    “Blindness separate us from things but deafness from people” said Helen Keller, a famous American author who was the first&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <figure class="post__image post__image--center"><img loading="lazy"  src="https://my.sylar.org/media/posts/6/featured_huaca8b91f13bc14b487d5df59079fe7d0_147338_720x0_resize_q90_lanczos.jpg" alt="" width="720" height="240" sizes="(max-width: 48em) 100vw, 768px" srcset="https://my.sylar.org/media/posts/6/responsive/featured_huaca8b91f13bc14b487d5df59079fe7d0_147338_720x0_resize_q90_lanczos-xs.jpg 300w ,https://my.sylar.org/media/posts/6/responsive/featured_huaca8b91f13bc14b487d5df59079fe7d0_147338_720x0_resize_q90_lanczos-sm.jpg 480w ,https://my.sylar.org/media/posts/6/responsive/featured_huaca8b91f13bc14b487d5df59079fe7d0_147338_720x0_resize_q90_lanczos-md.jpg 768w"></figure>
-<p><em>“Blindness separate us from things but deafness from people”</em> said Helen Keller, a famous American author who was the first deafblind person to obtain a Bachelor in Arts, in 1904. And indeed, being able to interpret an auditory scene from a robot is now a required capability when operating with humans, mainly interacting by speech with each others. Auditory scene analysis is a quite well-known research topic in Acoustics and Signal Processing, but considering its implication in Robotics, it is not as easy as expected to port all the already developments <em>inside</em> a robot. The robotic context exhibit original constraints like embeddability, real-time, reveberations, ego-noise, etc.</p>
-<p>Two main paradigms are currently exploited in Robotics:</p>
-<ul>
-<li>on the one hand, <strong>array processing approaches</strong> exploit microphones array to exploit redundant audio information to perform sound source localization, source separation, source recognition in a very efficient way. Recent developments definitely show that this is the way to go to develop an efficient audio system in Robotics;</li>
-<li>on the other hand, <strong>binaural approaches</strong> try to somewhat mimic the human auditory system, at least from an external point of view (two ears, generally with two external ears). Using only two ears in a Robotics context is still a very challenging task. But while one could question the choice to restrict ourself to only two ears, this is also a unique opportunity to test auditory models of human audition, and to stress the importance of action in the hearing process.</li>
-</ul>
-<p>Indeed, hearing is rarely a purely static task. For instance, one often makes small head movements to disambiguate sound location, or better sound recognition. This is specifically what I have been dealing with, i.e. <em><strong>active binaural audition</strong></em>. On this topic, I have mainly proposed contributions on:</p>
-<ul>
-<li>the <a href="https://my.sylar.org/binaural-cues-characterization/">characterization of binaural cues</a> used for sound localization and source recognition in realistic conditions,</li>
-<li>the specific sound localization problem,</li>
-<li>the use of the binaural movement to better sound localization,</li>
-<li>and the building of multimodal representation of unknown environments through head movements.</li>
-</ul>
             ]]>
         </content>
     </entry>
