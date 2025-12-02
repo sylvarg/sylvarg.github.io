@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://my.sylar.org/sitemap.xml
+Sitemap: https://sylvain.argentieri.me/sitemap.xml
